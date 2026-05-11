@@ -92,6 +92,40 @@ xuebadiClaw 是基于 [X-OmniClaw](https://github.com/OPPO-Mente-Lab/X-OmniClaw)
 | 相机 | 摄像头交互 | ❌ 否 |
 | 麦克风 | 语音输入 | ❌ 否 |
 
+## 🔧 常见问题
+
+### 语音识别失败：未配置 STT Provider
+
+如果看到以下错误提示：
+
+> 语音识别:语音处理失败:未配置STT provider (models.providers.stt)
+
+**原因**：应用未配置语音识别（STT）提供商。
+
+**解决方法**：
+
+1. 访问 **https://cloud.siliconflow.cn/** 注册账号（送 14 元免费额度）
+2. 进入「API Keys」页面，创建新的 API Key
+3. 打开 xuebadiClaw 应用 → 进入「模型配置」页面
+4. 找到「🎙️ STT Provider」入口
+5. 填入以下信息并保存：
+
+   | 字段 | 值 |
+   |------|----|
+   | **API Key** | 你的 SiliconFlow API Key |
+   | **STT URL** | `https://api.siliconflow.cn/v1/audio/transcriptions` |
+   | **STT 模型** | `FunAudioLLM/SenseVoiceSmall` |
+
+6. 点击「保存并使用」
+
+> 💡 **SenseVoice 语音识别在 SiliconFlow 是免费的**，注册后无需充值即可使用。
+
+### 其他问题
+
+- **无法安装 APK**：请在设置中开启「安装未知来源应用」权限
+- **无障碍服务无法开启**：确保授予应用「查看应用使用情况」权限
+- **任务无响应**：检查 API Key 是否有效，以及网络连接是否正常
+
 ## 🛠️ 开发
 
 ### 从源码构建
