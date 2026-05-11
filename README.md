@@ -20,7 +20,7 @@ xuebadiClaw 是基于 [X-OmniClaw](https://github.com/OPPO-Mente-Lab/X-OmniClaw)
 - **跨平台扩展**: 支持飞书、Discord 等消息平台接入
 - **自控模块**: 内置服务控制、ADB 调试、导航等自控技能
 
-## 📦 内置技能
+## 🧠 内置技能
 
 | 技能 | 功能描述 |
 |------|---------|
