@@ -1,4 +1,4 @@
-# xuebadiClaw 🤖
+# 🤖 xuebadiClaw🦞 
 
 > 基于 X-OmniClaw 开源项目构建的中文定制版 AI 伴侣应用
 
@@ -6,7 +6,7 @@
 [![APK Size](https://img.shields.io/github/release-assets-prepro/xuebadi/xuebadiClaw?label=APK%20Size)](https://github.com/xuebadi/xuebadiClaw/releases/latest)
 [![License](https://img.shields.io/github/license/xuebadi/xuebadiClaw)](LICENSE)
 
-## 📱 简介
+## 🦞 简介
 
 xuebadiClaw 是基于 [X-OmniClaw](https://github.com/OPPO-Mente-Lab/X-OmniClaw) 开源项目构建的中文定制版 AI 伴侣应用。
 
