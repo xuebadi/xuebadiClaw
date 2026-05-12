@@ -1,4 +1,4 @@
-# 🤖 xuebadiClaw🦞 
+# 🤖 学霸帝Claw🦞 
 
 > 基于 X-OmniClaw 开源项目构建的中文定制版 AI 伴侣应用
 
@@ -8,7 +8,7 @@
 
 ## 🦞 简介
 
-xuebadiClaw 是基于 [X-OmniClaw](https://github.com/OPPO-Mente-Lab/X-OmniClaw) 开源项目构建的中文定制版 AI 伴侣应用。
+学霸帝Claw(xuebadiClaw) 是基于 [X-OmniClaw](https://github.com/OPPO-Mente-Lab/X-OmniClaw) 开源项目构建的中文定制版 AI 伴侣应用。
 
 使用 Claude 等大语言模型作为思考引擎，通过 Android 无障碍服务实现自动化操作，让手机能够自主完成 App 搜索、购物比价、相册管理、视频创作等任务。
 
